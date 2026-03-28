@@ -1,0 +1,19 @@
+# PowerShell
+*.ps1xml
+# Logs and outputs
+output/
+logs/
+*.log
+# Credentials (NEVER commit these)
+*.json
+!package.json
+*.cred
+*.secret
+secrets/
+credentials/
+# OS
+.DS_Store
+Thumbs.db
+# IDE
+.vscode/settings.json
+.idea/
